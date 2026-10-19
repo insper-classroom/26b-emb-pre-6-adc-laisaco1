@@ -8,6 +8,7 @@
 
 SemaphoreHandle_t xPrintfMutex;
 
+
 void task_a(void *p) {
     while (true) {
         // TODO: obtenha xPrintfMutex antes de usar o printf.
