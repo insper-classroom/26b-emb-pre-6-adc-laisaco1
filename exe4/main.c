@@ -74,6 +74,5 @@ int main() {
             }
         }
 
-        tight_loop_contents();
     }
 }
